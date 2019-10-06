@@ -18,19 +18,18 @@
 .wrapper{
 	width: 900px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 70px;
     
 }
 
 ul {
-    margin: 0;
     padding: 0;
     text-align: center;
     font-size: 0px;
     list-style: none;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
     display: flex;   
     justify-content: space-between;  
 }
@@ -38,6 +37,7 @@ ul {
 .site-naviagtion-item {
     display: inline-block;
     list-style: none;
+    margin-top: 0 auto;
 }
 
 ul a{
@@ -48,6 +48,7 @@ ul a{
     text-transform: uppercase;
     font-size: 14px;
     display: inline-block; 
+    margin-top: 0 auto;
 }
 
 ul a:hover,
@@ -122,6 +123,10 @@ ul a:focus{
     margin-right: 60px;
 }
 
+.box:not(:nth-child(n+6)) {
+    padding-bottom: 0;
+}
+
 .article-text {
 	margin-top: 20px;
 }
@@ -167,7 +172,8 @@ ul a:focus{
 	color: #666666;
 	font-family: 'Playfair Display';
 	font-size: 20px;
-	text-decoration: none;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button:hover {
