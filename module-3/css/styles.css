@@ -117,6 +117,8 @@ ul a:focus{
    display: inline-block;
    width: 420px;
    padding-bottom: 90px;
+   margin: 0;
+   margin-bottom: 0;
 }
 
 .box:not(:nth-child(2n)) {
