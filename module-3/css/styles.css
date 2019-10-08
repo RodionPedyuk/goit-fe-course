@@ -8,6 +8,7 @@
 }
 
 .body{
+    margin: 0;
     font-family: "Meried Pro", "PIDisplayfair", "Ubuntu", serif;
     font-weight: 400;
     color: #626262;
@@ -16,10 +17,9 @@
 }
 
 .wrapper{
-	width: 900px;
+	width: 910px;
     margin: 0 auto;
     margin-top: 0px;
-    margin-bottom: 70px;
     
 }
 
@@ -37,7 +37,7 @@ ul {
 .site-naviagtion-item {
     display: inline-block;
     list-style: none;
-    margin-top: 0 auto;
+    margin-top: 0;
 }
 
 ul a{
@@ -48,7 +48,7 @@ ul a{
     text-transform: uppercase;
     font-size: 14px;
     display: inline-block; 
-    margin-top: 0 auto;
+    margin-top: 0;
 }
 
 ul a:hover,
@@ -88,7 +88,6 @@ ul a:focus{
 }
 
 .container {
-    width: 960px;
     margin: 0 auto;
 }
 
@@ -98,8 +97,13 @@ ul a:focus{
     padding: 0;
 }
 
+.content{
+    padding-bottom: 10px;
+    font-size: 0;
+}
+
 .article-title {
-    margin-bottom: 20px;
+    margin: 0 auto; 
     margin-bottom: 20px;
     font-size: 30px;
     
@@ -129,11 +133,9 @@ ul a:focus{
     padding-bottom: 0;
 }
 
+
 .article-text {
-	margin-top: 20px;
-}
-.article-text {
-	margin-top: 20px;
+	margin: 0;
 	margin-bottom: 30px;
 	font-size: 20px;
 }
@@ -164,7 +166,6 @@ ul a:focus{
 .button {
 	display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
     padding: 0;
     padding-bottom: 0;
 	width: 160px;
