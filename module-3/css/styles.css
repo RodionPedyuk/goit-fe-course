@@ -136,6 +136,7 @@
 	display: inline-block;
 	width: 420px;
 	padding-bottom: 56px;
+	margin-bottom: 20px; 
 }
 
 .box:not(:nth-child(2n)) {
@@ -150,7 +151,7 @@
 }
 
 .article-text {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	color: #b4ad9e;
 	text-transform: uppercase;
 	font-style: normal;
