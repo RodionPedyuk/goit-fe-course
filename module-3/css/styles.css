@@ -8,7 +8,8 @@
 }
 
 .body{
-    margin: 0;
+	margin: 0 auto;
+	padding: 0;
     font-family: "Meried Pro", "PIDisplayfair", "Ubuntu", serif;
     font-weight: 400;
     color: #626262;
@@ -17,44 +18,58 @@
 }
 
 .wrapper{
-	width: 910px;
+	width: 900px;
     margin: 0 auto;
-    margin-top: 0px;
+	margin-top: 0px;
     
 }
 
-ul {
-    padding: 0;
-    text-align: center;
-    font-size: 0px;
-    list-style: none;
-    text-align: center;
-    padding: 50px;
-    display: flex;   
-    justify-content: space-between;  
+.main-nav {
+	padding: 77px 0;
 }
 
-.site-naviagtion-item {
-    display: inline-block;
-    list-style: none;
-    margin-top: 0;
+.nav-menu {
+	margin: 0;
+	padding: 0;
+	font-size: 0; 
+	text-align: center;
+
 }
 
-ul a{
-    display: inline-block; 
-    color:#626262;
-    margin: 28px 28px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    display: inline-block; 
-    margin-top: 0;
+.site-navigation-item li:last-child {
+	margin-right: 0;
 }
 
-ul a:hover,
-ul a:focus{
+
+
+.site-navigation-item {
+	display: inline-block;
+	padding: 0;
+}
+
+.nav {
+	padding: 0;
+}
+
+.nav-menu a {
+	display: block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.nav-menu li:not(:last-child) {
+	margin-right: 120px;
+}
+
+
+
+.nav-menu a:hover,
+.nav-menu a:focus{
     cursor: pointer;
-    color: #03a9f4;
+    color: #03f4f4;
 }
 
 .hidden {
@@ -88,7 +103,8 @@ ul a:focus{
 }
 
 .container {
-    margin: 0 auto;
+	margin: 0 auto;
+	padding-bottom: 70px;
 }
 
 .content-list {
@@ -98,7 +114,6 @@ ul a:focus{
 }
 
 .content{
-    padding-bottom: 10px;
     font-size: 0;
 }
 
@@ -118,19 +133,13 @@ ul a:focus{
 }
 
 .box {
-   display: inline-block;
-   width: 420px;
-   padding-bottom: 90px;
-   margin: 0;
-   margin-bottom: 0;
+	display: inline-block;
+	width: 420px;
+	padding-bottom: 56px;
 }
 
 .box:not(:nth-child(2n)) {
-    margin-right: 60px;
-}
-
-.box:not(:nth-child(n+6)) {
-    padding-bottom: 0;
+	margin-right: 60px;
 }
 
 
@@ -166,8 +175,7 @@ ul a:focus{
 .button {
 	display: block;
     margin: 0 auto;
-    padding: 0;
-    padding-bottom: 0;
+    padding: 20px;
 	width: 160px;
 	height: 60px;
 	background-color: #fff;
