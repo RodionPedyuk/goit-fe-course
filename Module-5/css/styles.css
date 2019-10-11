@@ -48,7 +48,6 @@ html {
 	margin: 0 auto;
 	padding: 0;
 	background-color: #fff;
-	/* background-repeat: no-repeat; */
 	height: 21px;
   width:77px;
 }
@@ -117,7 +116,7 @@ html {
 }
 
 .slider::after {
-  content: ‘’;
+  content: "";
   display: table;
   position: absolute;
   width: 100%;
@@ -369,8 +368,8 @@ img {
 }
 
 .map-list:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
+  /* -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1); */
   transform: scale(1.1);
 }
 
