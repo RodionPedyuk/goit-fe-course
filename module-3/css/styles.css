@@ -8,6 +8,8 @@
 }
 
 .body{
+	margin: 0 auto;
+	padding: 0;
     font-family: "Meried Pro", "PIDisplayfair", "Ubuntu", serif;
     font-weight: 400;
     color: #626262;
@@ -18,42 +20,56 @@
 .wrapper{
 	width: 900px;
     margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 70px;
+	margin-top: 0px;
     
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 0px;
-    list-style: none;
-    text-align: center;
-    padding: 100px;
-    display: flex;   
-    justify-content: space-between;  
+.main-nav {
+	padding: 77px 0;
 }
 
-.site-naviagtion-item {
-    display: inline-block;
-    list-style: none;
+.nav-menu {
+	margin: 0;
+	padding: 0;
+	font-size: 0; 
+	text-align: center;
+
 }
 
-ul a{
-    display: inline-block; 
-    color:#626262;
-    margin: 28px 28px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    display: inline-block; 
+.site-navigation-item li:last-child {
+	margin-right: 0;
 }
 
-ul a:hover,
-ul a:focus{
+
+
+.site-navigation-item {
+	display: inline-block;
+	padding: 0;
+}
+
+.nav {
+	padding: 0;
+}
+
+.nav-menu a {
+	display: block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.nav-menu li:not(:last-child) {
+	margin-right: 120px;
+}
+
+
+
+.nav-menu a:hover,
+.nav-menu a:focus{
     cursor: pointer;
-    color: #03a9f4;
+    color: #03f4f4;
 }
 
 .hidden {
@@ -87,8 +103,8 @@ ul a:focus{
 }
 
 .container {
-    width: 960px;
-    margin: 0 auto;
+	margin: 0 auto;
+	padding-bottom: 70px;
 }
 
 .content-list {
@@ -97,8 +113,12 @@ ul a:focus{
     padding: 0;
 }
 
+.content{
+    font-size: 0;
+}
+
 .article-title {
-    margin-bottom: 20px;
+    margin: 0 auto; 
     margin-bottom: 20px;
     font-size: 30px;
     
@@ -113,26 +133,25 @@ ul a:focus{
 }
 
 .box {
-   display: inline-block;
-   width: 420px;
-   padding-bottom: 90px;
+	display: inline-block;
+	width: 420px;
+	padding-bottom: 56px;
+	margin-bottom: 20px; 
 }
 
 .box:not(:nth-child(2n)) {
-    margin-right: 60px;
+	margin-right: 60px;
 }
 
+
 .article-text {
-	margin-top: 20px;
-}
-.article-text {
-	margin-top: 20px;
+	margin: 0;
 	margin-bottom: 30px;
 	font-size: 20px;
 }
 
 .article-text {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	color: #b4ad9e;
 	text-transform: uppercase;
 	font-style: normal;
@@ -157,9 +176,7 @@ ul a:focus{
 .button {
 	display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 0;
-    padding-bottom: 0;
+    padding: 20px;
 	width: 160px;
 	height: 60px;
 	background-color: #fff;
@@ -167,7 +184,8 @@ ul a:focus{
 	color: #666666;
 	font-family: 'Playfair Display';
 	font-size: 20px;
-	text-decoration: none;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button:hover {
