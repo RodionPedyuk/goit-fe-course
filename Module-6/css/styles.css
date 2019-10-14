@@ -47,7 +47,24 @@ html {
 .navigation-item a:hover,
 .navigation-item a:focus {
 	color: #f38181;
-	cursor: pointer;
+    cursor: pointer;
+    
+}
+
+.navigation-list a:after {
+    background-color: #f38181;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.navigation-list a:hover:after,
+.navigation-list a:focus:after {
+  width: 100%;
 }
 
 .hidden {
@@ -153,4 +170,220 @@ html {
 .text-items:nth-child(6){
     background-image: url(../icons/image.png);
     background-repeat: no-repeat;
+}
+
+.wrapper-team{
+    position: relative;
+}
+
+.team-list{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.team-item {
+    width: 380px;
+    padding-bottom: 85px;
+  }
+
+.team-desc{
+    padding-top: 49px;
+    padding-bottom: 96px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+    color: #999999;
+    text-align: center;
+}
+
+.team-title {
+    width: 380px;
+    padding-bottom: 85px;
+}
+
+.team-name{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.team-pos{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #acacac;
+    font-size: 15px;
+    line-height: 24px;
+    justify-content: center;
+}
+
+.overlay{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+  }
+
+.overlay-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.overlay-item{
+    width: 60px;
+    height: 60px;
+    background-color: #fce38a;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay-item a {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+  
+.overlay-item:not(:last-child) {
+    margin-right: 2px;
+}
+
+.facebook{
+    background-image: url(../icons/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter{
+    background-image: url(../icons/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pinterest{
+    background-image: url(../icons/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instagram{
+    background-image: url(../icons/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay-item:hover {
+    background-color: #95e1d3;
+}
+
+.overlay:hover {
+    background-image: linear-gradient(rgba(252, 227, 138, .9) 0%, rgba(243, 129, 129, .9) 100%);
+    box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1);
+    opacity: 1;
+}
+
+.info{
+    margin: 0;
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+}
+
+.info a{
+    color: #f38181;
+}
+
+.link-text{
+    text-decoration: none;
+}
+
+.info::before {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 1200px;
+    height: 1px;
+    background-color: #e5e5e5;
+    content: "";
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+  }
+  
+
+.sub{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-text{
+    width: 240px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    border-right: none;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.sub-text {
+    width: 240px;
+    height: 40px;
+    font-family: “Roboto”, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e7e7e7;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+  
+  .sub-button {
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    background: #95e1d3;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
 }
