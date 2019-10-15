@@ -257,6 +257,9 @@ html {
   margin-right: 0;
 }
 
+.img-wrap{
+  position: relative;
+}
 
 .map-price {
   float: right;
@@ -387,8 +390,7 @@ img {
   right: 10px;
   background: #0000007f;
   text-align: center;
-  bottom: 0;
-  height: 304px;
+
   display: none;
 }
 
