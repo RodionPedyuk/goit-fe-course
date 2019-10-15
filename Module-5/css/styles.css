@@ -257,9 +257,6 @@ html {
   margin-right: 0;
 }
 
-.img-wrap{
-  position: relative;
-}
 
 .map-price {
   float: right;
@@ -281,7 +278,7 @@ img {
   height: auto;
 }
 
-.map-list:hover p {
+.map-list:hover .product-deskription {
   background: #33cc99;
 }
 
@@ -343,7 +340,6 @@ img {
   display: block;
   width: 201px;
   height: 40px;
-  background-color: #323232;
   color: #fff;
   font-size: 18px;
   line-height: 32px;
@@ -352,13 +348,8 @@ img {
   text-decoration: none;
   font-weight: 500;
 }
-
-.map-list:hover p {
-  background: #33cc99;
-}
-
-.map-list:hover .map-price {
-  background: #7fd9c7;
+.img-wrap{
+  position: relative;
 }
 
 .map-list:hover {
@@ -390,8 +381,11 @@ img {
   right: 10px;
   background: #0000007f;
   text-align: center;
-
   display: none;
+}
+
+.product-deskription{
+  background-color: #323232;
 }
 
 .map-list:hover .product-overlay {
