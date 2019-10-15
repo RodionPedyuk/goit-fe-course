@@ -257,19 +257,6 @@ html {
   margin-right: 0;
 }
 
-.map-name {
-  float: left;
-  margin: 0 auto;
-  display: block;
-  width: 201px;
-  background-color: #323232;
-  color: #fff;
-  font-size: 18px;
-  line-height: 32px;
-  text-transform: uppercase;
-  padding: 5px 0 5px 10px;
-  text-decoration: none;
-}
 
 .map-price {
   float: right;
@@ -286,7 +273,7 @@ html {
 }
 
 img {
-  /* vertical-align: middle; */
+  vertical-align: middle;
   /* max-width: 100%; */
   height: auto;
 }
@@ -360,6 +347,7 @@ img {
   text-transform: uppercase;
   padding: 5px 0 5px 10px;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .map-list:hover p {
@@ -371,8 +359,8 @@ img {
 }
 
 .map-list:hover {
-  /* -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1); */
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -413,7 +401,8 @@ img {
   width: 100%;
   top: 33%;
   left: 50%;
-  transform: translateY(50%);  padding: 0;
+  transform: translateY(70%);  
+  padding: 0;
 }
 
 .submenu-icon {
@@ -467,27 +456,28 @@ img {
 }
 
 .cart {
-  padding-left: 60px;
+  padding-left: 55px;
   width: 166px;
+  text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 32px;
   color: #fff;
   background-image: url(../icons/icon_cart.png);
-  background-position: 15px;
+  background-position: 10px;
   background-color: #323232;
   
 }
 
 .cart:hover {
-	background: #1abc9c;
+	background-color: #323233;
   border: #fff 1px solid;
-  cursor: pointer;
 }
 
 .submenu-button:hover {
   background-color: #1abc9c;
   cursor: pointer;
+  border: none;
 }
 
 .submenu-button:hover {
@@ -495,8 +485,12 @@ img {
 }
 
 .cart:hover {
-  background: #323232;
+  background-color: #1abc9c;
   border: #fff 1px solid;
+}
+
+.cart:hover {
+   opacity: 1;
 }
 
 .page-footer {
