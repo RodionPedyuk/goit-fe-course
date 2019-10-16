@@ -17,11 +17,10 @@ html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: 
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
          url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
+  }
   /* montserrat-700 - latin */
   @font-face {
     font-family: 'Montserrat';
@@ -30,7 +29,7 @@ html {
     src: local('Montserrat Bold'), local('Montserrat-Bold'),
          url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+  }
 
 /* roboto-slab-regular - latin */
 @font-face {
@@ -154,6 +153,8 @@ transform: translateX(-50%);
     font-size: 16px;
     color: #777777;
     text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 35px;
 }
 
 .information{
@@ -164,7 +165,7 @@ transform: translateX(-50%);
     list-style: none;
     width: 280px;
     text-align: center;
-    padding-top: 116px;
+    padding-top: 86px;
     position: relative;
 }
 
@@ -180,10 +181,10 @@ transform: translateX(-50%);
 .info-text{
     margin: 0 auto;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab";
     font-weight: 400;
     font-size: 14px;
-    color: #777777;
+    color: #9b9b9b;
     padding-bottom: 120px;
 }
 
@@ -224,14 +225,13 @@ input::placeholder {
   }
 
   input {
-    color: #bbbbbb;
+    color: #222222;
     border: none;
     padding: 18px;
     width: 456px;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
     font-weight: 900;
-    text-transform: uppercase;
     border-radius: 4px;
   }
 
@@ -249,7 +249,7 @@ input::placeholder {
 }
 
 textarea {
-    color: #bbbbbb;
+    color: #222222;
     border: none;
     padding: 15px 25px;
     width: 456px;
