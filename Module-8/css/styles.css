@@ -179,7 +179,7 @@ img{
 
 .find:hover {
   background-color: #ffffff;
-  border: 2px solid #ff4e50;
+  /* border: 2px solid #ff4e50; */
   color: #ff4e50;
   cursor: pointer;
   transition: all 200ms linear;
@@ -321,8 +321,8 @@ img{
     
     .banner {
         background-image: url(../img/tablet.jpeg);
-        height: 43.75rem;
     } 
+
     .logo{
         display: block;
         
@@ -335,7 +335,6 @@ img{
 
     .title{
         font-size: 3.25rem;
-        width: 31.5625rem;
     }
 
     .after-title{
@@ -390,7 +389,6 @@ img{
 
     .banner{
         background-image: url(../img/desktop.jpg);
-        height: 43.75rem;
         align-items: flex-end;
     }
 
@@ -424,7 +422,5 @@ img{
         margin-bottom: 0rem;
     }
 
-    .partner-item:not(:last-of-type) {
-        margin-bottom: 0ß;
-    }
+
 }
