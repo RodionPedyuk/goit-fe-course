@@ -128,6 +128,7 @@ img{
 
 .header{
     position: absolute;
+    width: 100%;
 }
 
 .title {
@@ -191,8 +192,7 @@ img{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
-    padding-top: 4.375rem;
-    padding-bottom: 0.9375rem;
+    margin-bottom: 0.9375rem;
     text-align: center;
 }
 
@@ -294,7 +294,8 @@ img{
     border: 2px solid #ff4e50;
     padding: 0.75rem 3.4375rem;
     background-position: center;
-    transform: translateX(18%);
+    display: block;
+        margin: 0 auto;
 }
   
 .other:hover {
@@ -313,7 +314,6 @@ img{
     
     .banner {
         background-image: url(../img/tablet.jpeg);
-        width: 48rem;
         height: 43.75rem;
     } 
     .logo{
@@ -370,7 +370,7 @@ img{
     }
 
     .other{
-        transform: translateX(107%);
+        
     }
 } 
 
@@ -378,13 +378,11 @@ img{
 @media (min-width: 940px){
     .container{
         margin: 0 auto;
-        width: 81.25rem;
-        padding-left: 12.5rem;
+        width: 940px;    
     }
 
     .banner{
-        background-image: url(../img/desctop.jpg);
-        width: 90rem;
+        background-image: url(../img/desktop.jpg);
         height: 43.75rem;
         align-items: flex-end;
     }
@@ -404,14 +402,21 @@ img{
 
     .meet {
         padding-bottom: 1.5625rem;
-        width: 141%;
     }
 
     .partner-list {
         flex-wrap: nowrap;
         width: 141%;
     }
+    .partners{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
 
+    .partner-box{
+        flex-direction: row;
+    }
     
     .partner-item {
         margin-bottom: 0px;
@@ -422,6 +427,6 @@ img{
     }
 
     .other{
-        transform: translateX(250%);
+        
     }
 }
