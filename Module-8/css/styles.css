@@ -59,6 +59,7 @@ img{
 
 .container{
     width: 20rem;
+    
 }
 
 .banner{ 
@@ -220,7 +221,8 @@ img{
     color: #989898;
     margin: 0 auto;
     width: 12.5rem;
-
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 .partner-list {
@@ -306,6 +308,11 @@ img{
     transition: all 200ms linear;
   }
 
+.partners{
+    padding-top: 4.375rem;
+    padding-bottom: 4.5625rem;
+}
+
 /* TABLET */
 @media (min-width: 768px) {
     .container{
@@ -364,21 +371,21 @@ img{
         margin-bottom: 1.875rem;
     }
 
+    .partner-desc{
+        margin-bottom: 0rem;
+    }
     
     .partners-item:nth-child(2n+1) {
         margin-right: 1.5625rem;
     }
 
-    .other{
-        
-    }
 } 
 
 /* DESKTOP */
 @media (min-width: 940px){
     .container{
         margin: 0 auto;
-        width: 940px;    
+        width: 58.75rem;    
     }
 
     .banner{
@@ -393,7 +400,7 @@ img{
 
     .banner-title {
         margin: 0 auto;
-        width: 480px;
+        width: 30rem;
     }
 
     .find{
@@ -408,25 +415,16 @@ img{
         flex-wrap: nowrap;
         width: 141%;
     }
-    .partners{
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
 
     .partner-box{
         flex-direction: row;
     }
     
     .partner-item {
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
     }
 
     .partner-item:not(:last-of-type) {
-        margin-bottom: 0;
-    }
-
-    .other{
-        
+        margin-bottom: 0ß;
     }
 }
