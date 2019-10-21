@@ -316,12 +316,16 @@ img{
 /* TABLET */
 @media (min-width: 768px) {
     .container{
-        width: 48rem;
+        width: 45rem;
     }
     
     .banner {
         background-image: url(../img/tablet.jpeg);
     } 
+
+    .title{
+        width: 505px;
+    }
 
     .logo{
         display: block;
@@ -358,13 +362,9 @@ img{
     }
 
     .partner-list {
-        width: 31.0625rem;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
         align-items: flex-start;
+        flex-direction: row;
     }
-
     .partner-item {
         width: 14.75rem;
         margin-bottom: 1.875rem;
