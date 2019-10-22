@@ -11,7 +11,7 @@
 
 .logotype {
     text-decoration: none;
-    color: #fff;
+    color: $white-color;
     font-family: $montserrat;
     font-size: 30px;
     font-weight: 700;
@@ -38,7 +38,7 @@
     font-family: $montserrat;
     font-size: 14px;
     font-weight: 400;
-    color: #fff;
+    color: $white-color;
     text-decoration: none;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .nav-list__item-svg{
-    fill: #ffffff;
+    fill: $white-color;
     width: 18px;
     height: 15px;
 }
@@ -81,7 +81,7 @@
 }
 
 .banner__title{
-    color: #fff;
+    color: $white-color;
     font-family: $kaushan;
     font-weight: 400;
     text-align: center;
@@ -94,7 +94,7 @@
 .banner__subtitle{
     display: block;
     font-family: $montserrat;
-    color: #fff;
+    color: $white-color;
     font-weight: 700;
     font-size: 150px;
     text-transform: uppercase;
@@ -113,7 +113,7 @@
     width: 160px;
     height: 40px;
     font-size: 14px;
-    color: #ffffff;
+    color: $white-color;
     border: 3px solid;
 }
 

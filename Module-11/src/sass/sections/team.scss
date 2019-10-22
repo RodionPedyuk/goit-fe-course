@@ -133,7 +133,7 @@
 .overlay-list__item{
     &:hover{
         .overlay-list__item-svg{
-            fill: #ffffff;
+            fill: $white-color;
         }
     }
    
@@ -151,7 +151,7 @@
         background-color: $red-color;
     }
     &:hover svg {
-        fill: #fff;
+        fill: $white-color;
         background-color: $red-color;
     }
 }

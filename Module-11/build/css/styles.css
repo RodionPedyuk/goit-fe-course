@@ -502,7 +502,7 @@ html {
 }
 
 .nav-list__item-svg {
-  fill: #ffffff;
+  fill: #fff;
   width: 18px;
   height: 15px;
 }
@@ -549,7 +549,7 @@ html {
   width: 160px;
   height: 40px;
   font-size: 14px;
-  color: #ffffff;
+  color: #fff;
   border: 3px solid;
 }
 
@@ -776,7 +776,7 @@ html {
 }
 
 .overlay-list__item:hover .overlay-list__item-svg {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 .overlay-list__item a {
