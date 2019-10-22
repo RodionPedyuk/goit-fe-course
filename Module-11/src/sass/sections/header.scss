@@ -1,0 +1,126 @@
+.header {
+    background-image:  linear-gradient( 0deg, rgba(252,227,138,.9) 0%, rgba(243,129,129,.9) 100%), url(../images/bc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.logotype {
+    text-decoration: none;
+    color: #fff;
+    font-family: $montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav {
+    padding-top: 30px;
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 611px;
+    justify-content: space-between;
+}
+
+.nav-text {
+    font-family: $montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list__item{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.nav-list__item a:hover,
+.nav-list__item a:focus {
+	color: $header-color;
+    cursor: pointer;
+    
+}
+
+.nav-list a:after {
+    background-color: $header-color;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.nav-list__item-svg{
+    fill: #ffffff;
+    width: 18px;
+    height: 15px;
+}
+
+.nav-list a:hover:after,
+.nav-list a:focus:after {
+  width: 100%;
+}
+
+.banner{
+    padding-bottom:  130px;
+}
+
+.banner__title{
+    color: #fff;
+    font-family: $kaushan;
+    font-weight: 400;
+    text-align: center;
+    font-size: 72px;
+    width: 820px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+}
+
+.banner__subtitle{
+    display: block;
+    font-family: $montserrat;
+    color: #fff;
+    font-weight: 700;
+    font-size: 150px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.learn {
+    margin: 0 auto;
+    padding-top: 10px;
+    display: block;
+    font-family: $montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    color: #ffffff;
+    border: 3px solid;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
+    .header {
+        background-image: url("../images/bc@2x.jpg");
+    }
+}

@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('Kaushan Script'), local('KaushanScript-Regular'),
-         url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/kaushan-script-v8-latin-regular.woff2') format('woff2'),  /*Chrome 26+, Opera 23+, Firefox 39+  */
          url('../fonts/kaushan-script-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
@@ -44,9 +44,9 @@
     src: local('Roboto'), local('Roboto-Regular'),
          url('../fonts/roboto-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/roboto-v20-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+} */
 
-
+ */
 
 
 
@@ -64,7 +64,10 @@ html {
     background-image:  linear-gradient( 0deg, rgba(252,227,138,.9) 0%, rgba(243,129,129,.9) 100%), url(../img/bc.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
+
+
 
 .container{
     margin: 0 auto;
@@ -177,7 +180,7 @@ html {
     font-size: 14px;
     color: #ffffff;
     border: 3px solid;
-}
+} 
 
 .hidden {
 	position: absolute !important;
@@ -283,10 +286,11 @@ html {
 .text-items:nth-child(6){
     background-image: url(../img/image.svg);
     background-repeat: no-repeat;
-}
+} 
 
-.wrapper-team{
+ .wrapper-team{
     position: relative;
+    background-image:  linear-gradient( 0deg, rgba(252,227,138,.9) 0%, rgba(243,129,129,.9) 100%), url(../img/bc@2x.jpg);
 }
 
 .wrapper-team:hover .overlay {
@@ -452,12 +456,12 @@ html {
     background-position: center;
 } */
 
-.overlay-list__item:hover {
+/* .overlay-list__item:hover {
     background-color: #f38181;
-}
+} */
 
 
-.info{
+ .info{
     margin: 0;
     width: 300px;
     font-family: "Roboto", sans-serif;
@@ -536,12 +540,12 @@ html {
     height: 40px;
     width: 150px;
     cursor: pointer;
-}
+} 
 
-@media (-webkit-min-device-pixel-ratio: 2),
+ @media (-webkit-min-device-pixel-ratio: 2),
 (-o-min-device-pixel-ratio: 2/1),
 (min-resolution: 192dpi) {
     .header {
         background-image: url("../img/bc@2x.jpg");
     }
-}
+} 
